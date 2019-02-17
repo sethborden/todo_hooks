@@ -1,0 +1,41 @@
+.todos {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todos-list {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 12px;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.todo {
+  padding: 12px 0;
+  display: flex;
+}
+
+.todo input {
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.todo input:focus {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  outline: none;
+}
+
+.not-editing {
+  cursor: pointer;
+}
